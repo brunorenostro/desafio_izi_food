@@ -1,7 +1,6 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js + TypeScript App"/>
+    <HelloWorld msg="Welcome to Your Vue.js + TypeScript App" />
   </div>
 </template>
 
@@ -15,6 +14,7 @@ export default Vue.extend({
     HelloWorld,
   },
 });
+
 </script>
 
 <style>
@@ -24,6 +24,17 @@ export default Vue.extend({
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+}
+
+@font-face{
+font-family:'PROMETO';
+src:local('PROMETO'),
+url(./assets/fonts/PROMETO.TTF) format('truetype');
+}
+
+@font-face{
+font-family:'PROMETO W04 LIGHT';
+src:local('PROMETO W04 LIGHT'),
+url(./assets/fonts/PROMETO W04 LIGHT.TTF) format('truetype');
 }
 </style>
